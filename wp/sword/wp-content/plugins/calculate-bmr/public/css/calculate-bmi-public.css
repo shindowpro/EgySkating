@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bmi-main-bg {
+    height: auto;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+}
+
+.bmi-card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #fff;
+    background-color: #363450;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;   
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px 0px #b6b3b3;
+}
+.bmi-circle {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    background: url(../images/background.jpeg);
+    background-size: cover;
+    box-shadow: 0px 10px 25px 1px #000000ab;
+}
+.bmi-title {
+    position: absolute;
+    top: 25px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 900;
+    margin: 0px;
+}
+.bmi-value {
+    font-size: 50px;
+    color: #FFDA66;
+    visibility: hidden;
+    margin: 0px !important;
+}
+.bmi-data {
+    font-size: 16px;
+    color: #25DFB7;
+    margin-top: 5px;
+    visibility: hidden;
+    margin: 0px;
+}
+
+.bmi-input-body {
+    display: flex;
+    gap: 50px;
+    margin: 30px 0;
+}
+.bmi-fields {
+    width: 100px;
+    height: 100px;
+    background-color: #202036;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.bmi-fields span {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.bmi-fields input[type="number"] {
+    width: 70%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFDA66;
+    font-size: 25px;
+    color: #FFDA66;
+    text-align: center;
+}
+.bmi-fields input[type="number"]:focus {
+    outline: none;
+    border-bottom: 2px solid red;    
+}
+
+/* Remove arrows from input type = number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+/* End remove arrows */
+
+
+.bmi-card .calc-value {
+    width: 100px;
+    height: 40px;
+    background-color: #6C5CE7 !important;
+    color: #fff !important;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 13px;
+    padding: 0px;
+}

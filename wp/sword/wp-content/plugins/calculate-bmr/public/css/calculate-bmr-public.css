@@ -1,0 +1,105 @@
+/**
+ * My Custom CSS file
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+.bmr-main-bg{
+    height: auto;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+}
+
+.bmr-card {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;   
+    align-items: center;
+    border: 1px solid #b9b6b6;
+    border-radius: 5px;
+    padding-bottom: 25px;
+}
+.bmr-top {
+    width: 100%;
+    background: linear-gradient(45deg, #f1baba, #4284e7f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.bmr-top h2 {
+    font-size: 25px;
+    margin: 0;
+    color: #fff;
+}
+.bmr-fields {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.bmr-fields input[type="number"] {
+    width: 70%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFDA66;
+    font-size: 15px;
+    color: #ff6b66;
+    text-align: center;
+}
+.bmr-fields input[type="number"]:focus {
+    outline: none;
+    border-bottom: 2px solid red;    
+}
+
+.bmr-fields span {
+    margin: 0 3px;
+}
+#bmr-gender {
+    margin: 15px;
+}
+
+#bmr-value {
+    width: 80%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #2248f0;
+    font-size: 15px;
+    color: #f12e6f;
+    text-align: center;
+}
+
+.bmr-fields button {
+    height: 40px;
+    width: 150px;
+    background-image: linear-gradient(45deg, #46e317, #f8e826f0);
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .form-area {
+        width: 100%;
+        margin: auto;
+    }
+    .card {
+        width: 100%;
+    }
+  }

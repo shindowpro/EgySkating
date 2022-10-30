@@ -1,0 +1,78 @@
+/*BMI Calculator*/
+.bmr-main-bg {
+    display: block !important;
+
+}
+
+.bmr-main-bg .bmr-card {
+	width: 100%;
+	text-align: left;
+	border: 0;
+	padding: 0;
+	border-radius: 0;
+}
+
+.bmr-main-bg .bmr-card .bmr-top {
+	display: none;
+}
+
+.bmr-main-bg .bmr-card .bmr-fields {
+	width: 100%;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.bmr-main-bg .bmr-card .bmr-fields:last-child {
+	margin-bottom: 0;
+}
+
+.bmr-main-bg .bmr-card .bmr-fields input[type="number"],
+.bmr-main-bg .bmr-card .bmr-fields #bmr-value {
+	background-color: transparent;
+    border: 1px solid #2E2E2E;
+    box-shadow: none;
+    height: 60px;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 25px;
+    width: 100%;
+    text-align: left;
+}
+
+.bmr-main-bg .bmr-card .bmr-fields input[type="number"]::placeholder,
+.bmr-main-bg .bmr-card .bmr-fields input[type="text"]::placeholder {
+	color: #fff;
+}
+
+.bmr-main-bg .bmr-card .bmr-fields #bmr-gender,
+.bmr-main-bg .bmr-card .bmr-fields span {
+	margin: 10px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.bmr-main-bg .bmr-card .bmr-fields #bmr-gender{
+	margin-left: 0;
+}
+
+.bmr-main-bg .bmr-card .bmr-fields button.btn-submit {
+	position: relative;
+    background: #E80000;
+    border: 2px solid #E80000;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: all ease 0.5s;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+

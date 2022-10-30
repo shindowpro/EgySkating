@@ -1,0 +1,81 @@
+/* #img-icon {
+    margin-left:10px ;width: 30px; height: 30px; border-radius: 50%; display: inline;
+} */
+#burger span {
+    height: 50px;
+    border: 3px solid gold;
+    padding: 2px;
+    transition: all .5s;
+}
+#burger span:hover {
+    border-color: red;
+    border-width: 5px;
+}
+
+.elementor-background-overlay {
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    position:absolute;
+    opacity: .8;
+    background-color:#000000;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+
+
+.banner-content .banner-btn a i img {
+    margin-left:10px ;width: 30px; height: 30px; border-radius: 50%; display: inline;
+}
+
+.hover a i img {
+    margin-left: 3px; width: 80px; height: 80px; border-radius: 50%; display: block;
+}
+
+.icon-wrap div i img {
+    width: 80px; height: 80px; border-radius: 20px; display: block; z-index: 1;
+}
+
+.elementor-button-icon i img {    
+    margin-left:10px ;width: 30px; height: 30px; border-radius: 50%; display: inline;
+}
+
+.feature-item .feature-icon-area .feature-icon i img {    
+    width: 50px; height: 50px;
+}
+
+/* #right:before {
+    content: "\f054";
+} */
+
+/* #left:before {
+    content: "|";
+} */
+
+.training-icon i img {    
+    width: 128px; height: 128px;
+}
+
+.training-overlay-icon a i img {
+    width: 20px; height: 20px;
+    transform: rotate(1800deg);
+    border-radius:50%;
+}
+
+.content-top .icon i img {
+    width: 40px; height: 40px;
+    border-radius:50%;
+    border: 3px solid red;
+}
+
+
+
+.plan-btn i > img {    
+    border-radius: 50%
+}
+
+
+.tutorial-video a img {    
+    width: 100px; height: 100px; border-radius: 50%
+}
